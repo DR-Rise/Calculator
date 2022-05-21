@@ -2,6 +2,8 @@ from tkinter import  *
 
 root = Tk()
 root.title ("Calculator")
+root.iconbitmap("Calc.ico")
+
 e= Entry(root, width=60 ,borderwidth=5,)
 
 e.grid(row=0, column=0, columnspan=5, padx=10,pady=10)
